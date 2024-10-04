@@ -37,7 +37,7 @@ public class MainFrame extends JFrame {
         lbWelcome.setFont(mainFont);
 
         /*********** Button Panel ************** */
-        JButton btnOK = new JButton();
+        JButton btnOK = new JButton("Ok");
         btnOK.setFont(mainFont);
         btnOK.addActionListener(new ActionListener() {
 
